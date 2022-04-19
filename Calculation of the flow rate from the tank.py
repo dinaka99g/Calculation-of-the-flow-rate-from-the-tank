@@ -48,7 +48,7 @@ for k in range (1,n_dt+1): #ne izvrsava se ovaj korak n_dt+1
 
 slika=plt.figure(figsize=(8,6))
 
-dijagram=plt.subplot(1,1,1) #koristimo matricni raspored dijagrama, koristimo jedan, matrica 1x1, ako hocemo 2 onda 2,2 ako hocemo (prvi broj vertikalno, drugi horizontalno)
+dijagram=plt.subplot(1,1,1)
 l1=plt.plot(data_t,data_v2,c='r',ls='-',lw=5)
 lx=plt.xlabel("vrijeme t[s]")
 ly=plt.ylabel("brzina isticanja")
