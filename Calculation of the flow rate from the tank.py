@@ -27,7 +27,7 @@ n_dt=int(t_ukupno/dt) #broj vremenskih koraka
 data_t=[]
 data_v2=[]
 
-for k in range (1,n_dt+1): #ne izvrsava se ovaj korak n_dt+1
+for k in range (1,n_dt+1): 
    
     t=t+dt
     v2=v2_0+dt/L*(v1_0**2/2-v2_0**2/2+g*h-(lamda*L/d2+ksi)*v2_0**2/2) 
